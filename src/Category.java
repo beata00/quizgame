@@ -1,8 +1,7 @@
 public enum Category {
-    SPORT,
     MUSIC,
+    SPORT,
     HISTORY,
-    SCIENCE,
-    ARTS,
-    MOVIES;
+    SCIENCE;
+    
 }
