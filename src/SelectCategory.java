@@ -13,14 +13,14 @@ public class SelectCategory {
            {
                 System.out.println("You chose Muzic , lets begin: ");
 
-                questions = reader.readQuestionsFromFile("TextFiles/musik.txt");
+                questions = reader.readQuestionsFromFile("resource/musik.txt");
                 return questions;
                
             }
 
             else if(input==2) {
                 System.out.println("You chose Sport, lets begin: ");
-                questions = reader.readQuestionsFromFile("TextFiles/sports.txt");
+                questions = reader.readQuestionsFromFile("resource/sports.txt");
                 return questions;
               
 
@@ -28,19 +28,19 @@ public class SelectCategory {
 
             else if(input==3) {
                 System.out.println("You chose History, lets begin: ");
-                questions = reader.readQuestionsFromFile("TextFiles/history.txt");
+                questions = reader.readQuestionsFromFile("resource/history.txt");
                 return questions;
               
             }
            else if(input==4) {
                 System.out.println("You chose Science, lets begin: ");
-                questions = reader.readQuestionsFromFile("TextFiles/Science_quiz.txt");
+                questions = reader.readQuestionsFromFile("resource/Science_quiz.txt");
                 return questions;
                 
             }
          else if(input==5) {
                 System.out.println("You chose All the categories above, lets begin: ");
-                questions = reader.readQuestionsFromFile("TextFiles/All.txt");
+                questions = reader.readQuestionsFromFile("resource/All.txt");
                 return questions;
                 
             }
