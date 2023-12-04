@@ -34,7 +34,7 @@ public class SelectCategory {
             }
            else if(input==4) {
                 System.out.println("You chose Science, lets begin: ");
-                questions = reader.readQuestionsFromFile("resource/Science_quiz.txt");
+                questions = reader.readQuestionsFromFile("resource/science.txt");
                 return questions;
                 
             }
